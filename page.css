@@ -1,0 +1,182 @@
+.secone{
+    height: 15vh;
+    background-color: #00a884;
+        z-index: 4;
+}
+
+.sectwo{
+    height: 85vh;
+    background-color: #e6e6e6;
+    z-index: 4;
+}
+
+.secthree{
+    height: 90vh;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.search{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+}
+
+
+.search span, icon{
+    background-color: rgb(236, 236, 236);
+    font-size: 14px;
+}
+
+.pic1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pictop{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pic2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pic3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic4{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic5{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.pin i{
+    transform: rotate(40deg);
+    color: rgb(116, 116, 116);
+}
+
+.texting{
+    background-image: url("photos/wp.png");
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.bottom i{
+    font-size: 23px;
+    color: rgb(116, 116, 116);
+}
+
+.leftsidemessage{
+    position: relative;
+    left: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.rightsidemessage{
+    position: relative;
+    left: 650px;
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #bdffd1;
+    margin-top: 3px;
+}
+
+.spanwatch{
+    font-size: 11px;
+}
+
+#secname,#thdname,#frthname,#fifthname,#whatsapptext    {
+    display: none;
+}
+
+.titles h5{
+    color: white;
+}
+
+.pin{
+    height: 70px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #circleicon {
+      display: none;
+    }
+    #messageicon {
+        display: none;
+      }
+    #usericon {
+        display: none;
+      }
+    #verticalicon {
+        display: none;
+      }
+    #searchbar {
+        display: none;
+      }
+    #whatsapptext {
+        display: block;
+      }
+    #topline{
+        background-color: #00a884;
+      }
+    .secone{
+          height: 28vh;
+      }
+    .topline i{
+        color: white;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+
+    #names{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+
+    #firstname, #secname, #thdname, #frthname, #fifthname {
+        display: none;
+    }
+  }
