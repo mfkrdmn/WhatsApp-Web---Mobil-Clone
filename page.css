@@ -1,0 +1,337 @@
+.secone{
+    height: 15vh;
+    background-color: #00a884;
+        z-index: 4;
+}
+
+.sectwo{
+    height: 85vh;
+    background-color: #e6e6e6;
+    z-index: 4;
+}
+
+.secthree{
+    height: 90vh;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.search{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+}
+
+
+.search span, icon{
+    background-color: rgb(236, 236, 236);
+    font-size: 14px;
+}
+
+.pic1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pictop{
+    width:  50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pic2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pic3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic4{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic5{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url("photos/pic5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.pin i{
+    transform: rotate(40deg);
+    color: rgb(116, 116, 116);
+}
+
+.texting{
+    background-image: url("photos/wp.png");
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.bottom i{
+    font-size: 23px;
+    color: rgb(116, 116, 116);
+}
+
+.leftsidemessage{
+    position: relative;
+    left: 30px;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.rightsidemessage{
+    position: relative;
+    left: 650px;
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #bdffd1;
+    margin-top: 3px;
+}
+
+.rightsidemessagenew{
+    position: relative;
+    left: 639px;
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #bdffd1;
+    margin-top: 3px;
+    padding-left: 11px;
+}
+
+.rightsidemessagenewlong{
+    position: relative;
+    left: 459px;
+    width: 370px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #bdffd1;
+    margin-top: 3px;
+    padding-left: 11px;
+}
+
+#userspan{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+}
+
+#topline i{
+    color: #8a8a8a;
+}
+
+#names i{
+    color: #8a8a8a;
+}
+
+#names span{
+    color: #424242;
+}
+
+.spanwatch{
+    font-size: 11px;
+}
+
+#secname,#thdname,#frthname,#fifthname,#whatsapptext    {
+    display: none;
+}
+
+.titles h5{
+    color: white;
+}
+
+.pin{
+    height: 70px;
+}
+
+h5{
+    font-size: 17px;
+    color: #424242;
+    margin-bottom: 0px;
+}
+
+.dotsec{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: #ffffff;
+    right: 320px;
+    top: 50px;
+    z-index: 1;
+    display: none;
+}
+
+.dotsec ul{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.dotsec li{
+    margin-bottom: 20px;
+}
+
+.dotsec li:hover{
+    background-color: #ecebeb;
+}
+
+.attachment{
+    height: 400px;
+    width: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 780px;
+    display: none;
+    padding-right: 5px;
+}
+
+#attachmentfirstli{
+    padding: 20px; 
+    background-color: blue; 
+    border-radius: 50%;
+    color: white !important;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#attachmentsecli{
+    padding: 20px; 
+    background-color: rgb(140, 0, 255); 
+    border-radius: 50%;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+#attachmentthdli{
+    padding: 20px; 
+    background-color: rgb(255, 0, 157); 
+    border-radius: 50%;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+#attachmentfrtli{
+    padding: 20px; 
+    background-color: rgb(0, 119, 255); 
+    border-radius: 50%;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+#attachmentffthli{
+    padding: 20px; 
+    background-color: rgb(145, 86, 241); 
+    border-radius: 50%;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.rowbottomtop{
+    height: 300px;
+    position: absolute;
+    width: 863px;
+    left: 740px;
+    bottom:27px;
+    display: none;
+    background-color: #ecebeb;
+}
+
+.rowbottomtop li{
+    float: left;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.rowbottomtop i{
+    color: rgb(255, 161, 38) !important;
+    cursor: pointer;
+}
+
+#arrowIcon{
+    display: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    #circleicon {
+      display: none;
+    }
+    #messageicon {
+        display: none;
+      }
+    #usericon {
+        display: none;
+      }
+    #verticalicon {
+        display: none;
+      }
+    #searchbar {
+        display: none;
+      }
+    #userspan {
+        display: none;
+      }
+    #whatsapptext {
+        display: block;
+      }
+    #topline{
+        background-color: #00a884;
+      }
+    .secone{
+          height: 28vh;
+      }
+    .topline i{
+        color: white;
+    }
+    .iconnones{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+
+    #names{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 990px) {
+
+    #firstname, #secname, #thdname, #frthname, #fifthname {
+        display: none;
+    }
+  }
+  
